@@ -1,0 +1,90 @@
+/* Container for the todo app */
+body{
+  background-color: #f0f4f8;
+}
+.todo-container {
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.5);
+  }
+  
+  /* Title styling */
+  .todo-container h2 {
+    text-align: center;
+    color: #333;
+  }
+.todo-container h2 span {
+  color: rgb(255, 174, 0);
+}
+  
+  /* Input area styling */
+  .todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .todo-input button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-input button:hover {
+    background: #218838;
+  }
+  
+  /* Todo list styling */
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list li span {
+    flex: 1;
+  }
+  
+  .todo-list li button {
+    padding: 5px 10px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .todo-list li button:hover {
+    background: #c82333;
+  }
+  
+  #editbtn{
+    background-color: rgb(255, 174, 0);
+    margin-right:5px ;
+  }
+
+  

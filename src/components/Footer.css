@@ -1,0 +1,25 @@
+.footer {
+  padding: .5em 0;
+  margin-top: 12em;
+  position: fixed;
+  bottom:0px ;
+  left: 45%;
+  right: 40%;
+}
+
+.footer__link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #c82333;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  .footer {
+    padding: .5em;
+    margin-top: 10em;
+    left: 25%;
+    right: 10%;
+  }
+}
